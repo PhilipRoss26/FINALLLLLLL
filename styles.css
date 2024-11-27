@@ -1,0 +1,86 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #0078d7; /* Bright blue header */
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+#inputsContainer {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Save Button */
+#saveButton {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#saveButton:hover {
+    background-color: #218838;
+}
+
+/* Game List */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons */
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Edit Button */
+button.edit {
+    background-color: #ffc107; /* Yellow */
+    color: white;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+/* Delete Button */
+button.delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
